@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfConvasPanelDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfConvasPanelDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Background="Green">
+        <Label Canvas.Top="30" Canvas.Left="20">Enter Here:</Label>
+        <TextBox Canvas.Top="30" Canvas.Left="120" Width="100" />
+        <Button Canvas.Top="95" Canvas.Left="134" Content="Click Me..!" Padding="5"/>
+    </Canvas>
+</Window>
